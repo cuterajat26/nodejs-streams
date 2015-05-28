@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "description": "examples of nodejs streams",
+  "main": "backpressure.js",
+  "dependencies": {
+    "chance": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuterajat26/nodejs-streams.git"
+  },
+  "author": "Rajat Talwar",
+  "license": "WTF license",
+  "bugs": {
+    "url": "https://github.com/cuterajat26/nodejs-streams/issues"
+  },
+  "homepage": "https://github.com/cuterajat26/nodejs-streams"
+}

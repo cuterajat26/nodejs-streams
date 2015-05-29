@@ -2,7 +2,7 @@ var util = require('util');
 
 var myInherits = function(ctor,superCtor){
 	ctor.super_  = superCtor;
-
+	var newFunc = new Function;
 	ctor.prototype = Object.create(superCtor.prototype,{
 		constructor:{
 			value:function(){
@@ -12,6 +12,8 @@ var myInherits = function(ctor,superCtor){
 			enumerable:false
 		}
 	});
+
+	return newFunc;
 };
 
 var Animal = function(){

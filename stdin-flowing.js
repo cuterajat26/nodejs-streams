@@ -8,3 +8,5 @@ console.log({
 }).on('end',function(){
 	console.log('end of stream');
 })
+
+//cat sample.txt | node stdin.js

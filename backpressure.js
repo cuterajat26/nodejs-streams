@@ -1,3 +1,4 @@
+//backpressure occurs when buffer with a writable stream reaches highWaterMark value
 var http = require('http');
 var chance = require('chance').Chance();
 
